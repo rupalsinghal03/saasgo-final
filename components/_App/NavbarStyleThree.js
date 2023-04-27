@@ -41,7 +41,7 @@ const NavbarStyleThree = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/">
                 <a className="navbar-brand">
-                  <img src="/images/logo.png" alt="Site Logo" />
+                  <img src="/images/logo_svg.svg" alt="Site Logo" />
                 </a>
               </Link>
 

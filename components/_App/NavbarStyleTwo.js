@@ -38,7 +38,7 @@ const NavbarStyleTwo = () => {
                             <Link href="/">
                                 <a className="navbar-brand">
                                     <img
-                                        src="/images/logo.png"
+                                        src="/images/logo_svg.svg"
                                         alt="Site Logo"
                                     />
                                 </a>
