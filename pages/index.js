@@ -1,56 +1,61 @@
-import React from 'react';
-import NavbarStyleOne from '@/components/_App/NavbarStyleOne';
-import HeroSlider from '@/components/HomeOne/HeroSlider/HeroSlider';
-import AboutCompany from '@/components/HomeOne/AboutCompany/AboutCompany';
-import ServiceSlider from '@/components/Services/ServiceSliderStyle1/ServiceSlider';
-import WhyChooseUs from '@/components/HomeOne/WhyChooseUs/WhyChooseUs';
-import FunFact from '@/components/Common/FunFact/FunFact';
-import CaseStudiesSlider from '@/components/CaseStudies/CaseStudiesStyle1/CaseStudiesSlider';
-import HowCanWeHelp from '@/components/Common/HowCanWeHelp/HowCanWeHelp';
-import OurTeam from '@/components/Common/OurTeam/OurTeam';
-import AppointmentForm from '@/components/Appointment/AppointmentStyle1/AppointmentForm';
-import TestimonialSlider from '@/components/Common/Testimonials/TestimonialSlider';
-import PartnerSlider from '@/components/Common/Partners/PartnerSlider';
-import OurBlog from '@/components/Common/OurBlog/OurBlog';
-import NewsletterForm from '@/components/Common/NewsletterForm/NewsletterForm';
-import Footer from '@/components/_App/Footer';
- 
+// ==============================================
+import React from "react";
+import NavbarStyleThree from "@/components/_App/NavbarStyleThree";
+import MainBanner from "@/components/HomeThree/MainBanner/MainBanner";
+import PartnerSlider from "@/components/Common/PartnersTwo/PartnerSlider";
+import AboutCompany from "@/components/HomeThree/AboutCompany/AboutCompany";
+import FunFact from "@/components/Common/FunFactTwo/FunFact";
+import WhyChooseUs from "@/components/HomeThree/WhyChooseUs/WhyChooseUs";
+import ServiceSlider from "@/components/Services/ServiceSliderStyle2/ServiceSlider";
+import AppointmentForm from "@/components/Appointment/AppointmentStyle3/AppointmentForm";
+import OurTeam from "@/components/Common/OurTeam/OurTeam";
+import CaseStudiesSlider from "@/components/CaseStudies/CaseStudiesStyle3/CaseStudiesSlider";
+import PricingTable from "@/components/Pricing/PricingTable";
+import HowCanWeHelp from "@/components/Common/HowCanWeHelp2/HowCanWeHelp";
+import OurBlog from "@/components/Common/OurBlog/OurBlog";
+import NewsletterForm from "@/components/Common/NewsletterForm/NewsletterForm";
+import Footer from "@/components/_App/Footer";
+
 const IndexPage = () => {
-    return (
-        <>
-            <NavbarStyleOne />
+  return (
+    <>
+      <NavbarStyleThree />
 
-            <HeroSlider />
+      <MainBanner />
 
-            <AboutCompany />
+      <div className="ptb-100">
+        <PartnerSlider />
+      </div>
 
-            <ServiceSlider />
+      <AboutCompany />
 
-            <WhyChooseUs /> 
+      <div className="ptb-100">
+        <FunFact />
+      </div>
 
-            <FunFact />
+      <WhyChooseUs />
 
-            <CaseStudiesSlider />
-            
-            <div className="pb-100">
-                <HowCanWeHelp />
-            </div>
-            
-            <OurTeam />
+      <ServiceSlider />
 
-            <AppointmentForm />
+      <div className="pb-100">
+        <AppointmentForm />
+      </div>
 
-            <TestimonialSlider />
+      <OurTeam />
 
-            <PartnerSlider />
+      <CaseStudiesSlider />
 
-            <OurBlog />
+      <PricingTable />
 
-            <NewsletterForm />
+      <HowCanWeHelp />
 
-            <Footer />
-        </>
-    )
-}
+      <OurBlog />
+
+      <NewsletterForm />
+
+      <Footer />
+    </>
+  );
+};
 
 export default IndexPage;
