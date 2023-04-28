@@ -128,15 +128,15 @@ const Footer = () => {
                 <ul className="footer-information">
                   <li className="d-flex">
                     <span className="pe-2">Address:</span>
-                    413 Mesa Drive North Las Vegas, NV 89032
+                    413 XYZ North Delhi 110007, India
                   </li>
                   <li className="d-flex">
                     <span className="pe-2">Phone:</span>
-                    <a href="tel:15143125678">+1 (514) 312-5678</a>
+                    <a href="tel:15143125678">+91 85068 84052</a>
                   </li>
                   <li className="d-flex">
                     <span className="pe-2">Email:</span>
-                    <a href="mailto:hello@biza.com">hello@biza.com</a>
+                    <a href="mailto:hello@biza.com">contact@saasgo.in</a>
                   </li>
                 </ul>
               </div>
@@ -147,9 +147,9 @@ const Footer = () => {
           <div className="container">
             <div className="copyright-area-content">
               <p>
-                Copyright © {currentYear} Biza All Rights Reserved by{" "}
+                Copyright © {currentYear} SaasGo All Rights Reserved by{" "}
                 <a href="https://envytheme.com/" target="_blank">
-                  EnvyTheme
+                  Metagate Innovation Pvt. Ltd.
                 </a>
               </p>
             </div>
