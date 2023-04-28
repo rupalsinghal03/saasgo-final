@@ -15,6 +15,8 @@ import HowCanWeHelp from "@/components/Common/HowCanWeHelp2/HowCanWeHelp";
 import OurBlog from "@/components/Common/OurBlog/OurBlog";
 import NewsletterForm from "@/components/Common/NewsletterForm/NewsletterForm";
 import Footer from "@/components/_App/Footer";
+import TechnologiesSlider from "@/components/Common/Technologies/TechnologiesSlider";
+import ServicesSlider from "@/components/Common/Services/ServicesSlider";
 
 const IndexPage = () => {
   return (
@@ -24,14 +26,16 @@ const IndexPage = () => {
       <MainBanner />
 
       <div className="ptb-100">
-        <PartnerSlider />
+        {/* <PartnerSlider /> */}
+        <TechnologiesSlider />
       </div>
 
       <AboutCompany />
 
-      <div className="ptb-100">
+      {/* <div className="ptb-100">
         <FunFact />
-      </div>
+        <ServicesSlider />
+      </div> */}
 
       <WhyChooseUs />
 
