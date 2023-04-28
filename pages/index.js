@@ -41,20 +41,23 @@ const IndexPage = () => {
 
       <ServiceSlider />
 
+      {/* <OurTeam /> */}
+
+      {/* <CaseStudiesSlider /> */}
+
+      {/* <PricingTable /> */}
+
+      <HowCanWeHelp />
+
+      <div className="ptb-100">
+        <PartnerSlider />
+      </div>
+
       <div className="pb-100">
         <AppointmentForm />
       </div>
 
-      <OurTeam />
-
-      <CaseStudiesSlider />
-
-      <PricingTable />
-
-      <HowCanWeHelp />
-
       <OurBlog />
-
       <NewsletterForm />
 
       <Footer />
