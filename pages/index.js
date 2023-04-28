@@ -17,6 +17,7 @@ import NewsletterForm from "@/components/Common/NewsletterForm/NewsletterForm";
 import Footer from "@/components/_App/Footer";
 import TechnologiesSlider from "@/components/Common/Technologies/TechnologiesSlider";
 import ServicesSlider from "@/components/Common/Services/ServicesSlider";
+import TestimonialSlider from "@/components/Common/Testimonials/TestimonialSlider";
 
 const IndexPage = () => {
   return (
@@ -57,7 +58,10 @@ const IndexPage = () => {
         <AppointmentForm />
       </div>
 
+      <TestimonialSlider />
+
       <OurBlog />
+
       <NewsletterForm />
 
       <Footer />
