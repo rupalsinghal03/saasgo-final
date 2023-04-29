@@ -36,13 +36,27 @@ const AppointmentForm = () => {
                   />
                 </div>
                 <div className={styles.formGroup}>
+                  <input
+                    type="text"
+                    className={styles.formControl}
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div className={styles.formGroup}>
+                  <input
+                    type="text"
+                    className={styles.formControl}
+                    placeholder="Subject"
+                  />
+                </div>
+                {/* <div className={styles.formGroup}>
                   <DatePicker
                     selected={startDate}
                     onChange={(date) => setStartDate(date)}
                     className={styles.formControl}
                   />
-                </div>
-                <div className={styles.formGroup}>
+                </div> */}
+                {/* <div className={styles.formGroup}>
                   <div className={styles.formSelect}>
                     <select
                       className="form-select"
@@ -55,12 +69,12 @@ const AppointmentForm = () => {
                       <option defaultValue="4">Competitor research</option>
                     </select>
                   </div>
-                </div>
+                </div> */}
                 <div className={styles.formGroup}>
                   <textarea
                     name="message"
                     className={styles.formControl}
-                    placeholder="Write message..."
+                    placeholder="Write your message..."
                     rows="5"
                   ></textarea>
                 </div>
