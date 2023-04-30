@@ -244,70 +244,36 @@ const NavbarStyleOne = () => {
                       </li>
                     </ul> */}
                   </li>
-
-                  {/* <li className="nav-item">
-                    <Link href="#">
-                      <a
-                        onClick={(e) => e.preventDefault()}
-                        className="dropdown-toggle nav-link"
-                      >
-                        Case Studies <i className="ri-arrow-down-s-line"></i>
-                      </a>
-                    </Link>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link href="/case-studies" activeClassName="active">
-                          <a onClick={toggleNavbar} className="nav-link">
-                            Case Studies
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/case-studies-details"
-                          activeClassName="active"
-                        >
-                          <a onClick={toggleNavbar} className="nav-link">
-                            Case Studies Details
-                          </a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li> */}
-
-                  {/* <li className="nav-item">
-                    <Link href="#">
-                      <a
-                        onClick={(e) => e.preventDefault()}
-                        className="dropdown-toggle nav-link"
-                      >
-                        Blog <i className="ri-arrow-down-s-line"></i>
-                      </a>
-                    </Link>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link href="/blog" activeClassName="active">
-                          <a onClick={toggleNavbar} className="nav-link">
-                            Blog
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/blog-details" activeClassName="active">
-                          <a onClick={toggleNavbar} className="nav-link">
-                            Blog Details
-                          </a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li> */}
                   <li className="nav-item">
+                    <Link href="/">
+                      <a onClick={toggleNavbar} className="nav-link">
+                        Products
+                        {/* <i className="ri-arrow-down-s-line"></i> */}
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/">
+                      <a onClick={toggleNavbar} className="nav-link">
+                        Industry
+                        {/* <i className="ri-arrow-down-s-line"></i> */}
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/blog">
+                      <a onClick={toggleNavbar} className="nav-link">
+                        Blog
+                      </a>
+                    </Link>
+                  </li>
+                  {/* <li className="nav-item">
                     <Link href="/career" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
                         Careers
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link href="/about" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
@@ -315,13 +281,13 @@ const NavbarStyleOne = () => {
                       </a>
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link href="/contact" activeClassName="active">
                       <a onClick={toggleNavbar} className="nav-link">
                         Contact Us
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 

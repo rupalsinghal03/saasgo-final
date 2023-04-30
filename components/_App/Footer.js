@@ -21,8 +21,10 @@ const Footer = () => {
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet consec elit sed eiusmod tempor
-                  incididunt ut labore etdolore magna aliqua.
+                  Saasgo provides expert IT and consulting solutions to help
+                  businesses thrive. Our experienced team delivers custom
+                  solutions that meet your unique needs and exceed
+                  your expectations.
                 </p>
 
                 <ul className="footer-widget-social">
@@ -58,14 +60,19 @@ const Footer = () => {
                 <h3>Quick links</h3>
 
                 <ul className="quick-links">
-                  <li>
+                  {/* <li>
                     <Link href="/case-studies">
                       <a>Case studies</a>
                     </Link>
+                  </li> */}
+                  <li>
+                    <Link href="/career">
+                      <a>Careers</a>
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/services-details">
-                      <a>Managed services</a>
+                    <Link href="/services">
+                      <a>Services</a>
                     </Link>
                   </li>
                   <li>
