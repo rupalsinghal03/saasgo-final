@@ -20,7 +20,7 @@ const PrivacyPolicy = () => {
 
             <PrivacyPolicyContent />
 
-            <NewsletterForm />
+            {/* <NewsletterForm /> */}
 
             <Footer />
         </>

@@ -20,7 +20,7 @@ const Blog = () => {
 
             <BlogPost />
 
-            <NewsletterForm />
+            {/* <NewsletterForm /> */}
 
             <Footer />
         </>

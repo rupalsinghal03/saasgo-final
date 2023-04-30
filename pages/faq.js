@@ -23,7 +23,7 @@ const FAQ = () => {
 
             <FaqContactForm />
 
-            <NewsletterForm />
+            {/* <NewsletterForm /> */}
 
             <Footer />
         </>

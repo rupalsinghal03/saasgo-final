@@ -6,7 +6,7 @@ const BlogSidebar = () => {
     return (
         <>
             <div className={styles.widgetArea}>
-                <div className={`${styles.widget} ${styles.widgetSearch}`}>
+                {/* <div className={`${styles.widget} ${styles.widgetSearch}`}>
                     <form className={styles.searchForm}>
                         <input 
                             type="search" 
@@ -17,9 +17,9 @@ const BlogSidebar = () => {
                             <i className="ri-search-line"></i>
                         </button>
                     </form>
-                </div>
+                </div> */}
                  
-                <div className={`${styles.widget} ${styles.widgetServices}`}>
+                {/* <div className={`${styles.widget} ${styles.widgetServices}`}>
                     <h3 className={styles.widgetTitle}>Categories</h3>
 
                     <ul className={styles.servicesList}>
@@ -64,7 +64,7 @@ const BlogSidebar = () => {
                             </Link>
                         </li>
                     </ul>
-                </div>
+                </div> */}
  
                 <div className={`${styles.widget} ${styles.widgetPostsThumb}`}>
                     <h3 className={styles.widgetTitle}>Recent Post</h3>

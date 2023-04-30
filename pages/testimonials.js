@@ -21,7 +21,7 @@ const Testimonials = () => {
             <TestimonialsContent />
 	 
 
-            <NewsletterForm />
+            {/* <NewsletterForm /> */}
 
             <Footer />
         </>

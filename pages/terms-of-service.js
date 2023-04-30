@@ -20,7 +20,7 @@ const TermsOfService = () => {
 
             <TermsOfServiceContent />
 
-            <NewsletterForm />
+            {/* <NewsletterForm /> */}
 
             <Footer />
         </>
