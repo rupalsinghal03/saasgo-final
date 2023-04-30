@@ -100,6 +100,12 @@
   color: var(--main-color);
   letter-spacing: 1px;
 }
+.discussWithUs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 767px) {
   .widgetArea {

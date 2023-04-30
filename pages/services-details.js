@@ -10,13 +10,13 @@ const ServicesDetails = () => {
         <>
             <NavbarStyleOne />
 
-			<PageBanner 
+			{/* <PageBanner 
                 pageTitle="Services Details" 
                 homePageUrl="/" 
                 homePageText="Home" 
                 activePageText="Services Details" 
                 BGImage="item-bg-3" 
-            />
+            /> */}
 
             <ServicesDetailsContent />
 
