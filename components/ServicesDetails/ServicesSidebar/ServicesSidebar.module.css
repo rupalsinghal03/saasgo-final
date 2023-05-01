@@ -34,6 +34,9 @@
 .widgetArea .widgetServices .servicesList li:last-child {
   margin-bottom: 0;
 }
+.widgetArea .widgetServices .servicesList li .active {
+  color: var(--main-color);
+}
 .widgetArea .widgetServices .servicesList li a {
   display: inline-block;
   width: 100%;

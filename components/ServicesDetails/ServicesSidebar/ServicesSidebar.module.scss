@@ -7,18 +7,21 @@
         &:last-child {
             margin-bottom: 0;
         }
+
         .widgetTitle {
             margin-bottom: 25px;
             position: relative;
             font-size: 24px;
         }
-        .discussWithUs{
+
+        .discussWithUs {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-          }
+        }
     }
+
     .widgetServices {
         background-color: #f9fafb;
         padding: 30px;
@@ -34,6 +37,10 @@
 
                 &:last-child {
                     margin-bottom: 0;
+                }
+
+                .active {
+                    color: var(--main-color);
                 }
                 a {
                     display: inline-block;
@@ -51,6 +58,7 @@
                         font-size: 18px;
                         transition: var(--transition);
                     }
+
                     &:hover {
                         color: var(--main-color);
                     }
@@ -58,6 +66,7 @@
             }
         }
     }
+
     .widgetContact {
         background-color: #f9fafb;
         padding: 30px;
@@ -74,10 +83,11 @@
                 line-height: 30px;
                 position: relative;
                 padding-left: 80px;
-    
+
                 &:last-child {
                     margin-bottom: 0;
                 }
+
                 span {
                     color: var(--main-color);
                     font-size: var(--font-size);
@@ -85,9 +95,10 @@
                     left: 0;
                     top: 0;
                 }
+
                 a {
                     color: var(--paragraph-color);
-    
+
                     &:hover {
                         color: var(--main-color);
                         letter-spacing: 1px;
@@ -103,31 +114,31 @@
     .widgetArea {
         padding-left: 0;
         margin-top: 30px;
-    
+
         .widget {
             .widgetTitle {
                 font-size: 22px;
                 margin-bottom: 20px;
             }
         }
+
         .widgetServices {
             padding: 20px;
         }
+
         .widgetContact {
             padding: 20px;
         }
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-
-}
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .widgetArea {
         padding-left: 0;
         margin-top: 30px;
-    
+
         .widget {
             .widgetTitle {
                 font-size: 22px;
@@ -140,22 +151,22 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .widgetArea {
         padding-left: 0;
- 
+
         .widget {
             .widgetTitle {
                 font-size: 22px;
                 margin-bottom: 20px;
             }
         }
+
         .widgetServices {
             padding: 20px;
         }
+
         .widgetContact {
             padding: 20px;
         }
     }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-
-}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}

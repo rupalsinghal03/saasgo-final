@@ -1,6 +1,13 @@
 import React from "react";
 import styles from "@/components/ServicesDetails/ServicesDetailsContent.module.css";
 import ServicesSidebar from "./ServicesSidebar/ServicesSidebar";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemPanel,
+  AccordionItemButton,
+} from "react-accessible-accordion";
 
 const ServicesDetailsContent = () => {
   return (
@@ -20,122 +27,50 @@ const ServicesDetailsContent = () => {
                     alt="image"
                   />
                 </div>
-                <span>IT CONSULTANCY</span>
+                <span>iOS All Service lists</span>
 
-                <h1>The challenge you face</h1>
-
-                <p>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia Curae Donec velit neque auctor sit
-                  amet aliquam vel ullamcorper sit amet ligula. Quisque velit
-                  nisi pretium ut lacinia in elementum id enim. Donec
-                  sollicitudin molestie malesuada. Vivamus suscipit tortor eget
-                  felis porttitor volutpat. Curabitur arcu erat accumsan id
-                  imperdiet et porttitor at sem. Nulla quis lorem ut libero
-                  malesuada feugiat.
-                </p>
-                <p>
-                  Mauris blandit aliquet elit eget tincidunt nibh pulvinar
-                  Curabitur arcu erat accumsan id imperdiet et, porttitor at
-                  sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor
-                  at sem. Nulla quis lorem ut libero malesuada feugiat. Vivamus
-                  suscipit tortor eget felis portt itor volutpat. Lorem ipsum
-                  dolor sit amet consectetur adipiscing elit. Pellentesque in
-                  ipsum id orci porta dapibus. Curabitur aliquet quam id dui
-                  posuere blandit. Pellentesque in ipsum id orci porta dapibus.
-                  Vivamus suscipit tortor eget felis porttitor volutpat.
-                </p>
-
-                <div className={styles.img}>
-                  <img src="/images/services-details-1.jpg" alt="image" />
-                </div>
-
-                <h3>How IT consultants will grow my business</h3>
-                <p>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia Curae Donec velit neque auctor sit
-                  amet aliquam vel ullamcorper sit amet ligula. Quisque velit
-                  nisi, pretium ut lacinia in, elementum id enim. Donec
-                  sollicitudin molestie malesuada. Vivamus suscipit tortor eget
-                  felis porttitor volutpat.
-                </p>
-                <p>
-                  Curabitur arcu erat accumsan id imperdiet et porttitor at sem.
-                  Nulla quis lorem ut libero malesuada feugiat. Mauris blandit
-                  aliquet elit eget tincidunt nibh pulvinar a. Curabitur arcu
-                  erat accumsan id imperdiet et porttitor at sem.
-                </p>
-
-                <div className={styles.img}>
-                  <img src="/images/services-details-2.jpg" alt="image" />
-                </div>
-
-                <h3>Why choose Biza IT consultancy?</h3>
-                <p>
-                  Praesent sapien massa convallis a pellentesque nec egestas non
-                  nisi. Proin eget tortor risus donec sollicitudin molestie
-                  malesuada. Curabitur arcu erat accumsan id imperdiet et
-                  porttitor at sem. Cras ultricies ligula sed magna dictum
-                  porta. Curabitur aliquet quam id dui posuere blandit.
-                </p>
-                <p>
-                  Sed porttitor lectus nibh Nulla porttitor accumsan tincidunt
-                  Vivamus magna justo lacinia eget consectetur sed convallis at
-                  tellus Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia Curae; Donec velit neque, auctor sit
-                  amet aliquam vel ullamcorper sit amet ligula. Mauris blandit
-                  aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna
-                  justo lacinia eget consectetur.
-                </p>
-                <p>
-                  Vivamus suscipit tortor eget felis porttitor volutpat.
-                  Pellentesque in ipsum id orci porta dapibus. Vestibulum ante
-                  ipsum primis in faucibus orci luctus et ultrices posuere
-                  cubilia Curae Donec velit neque auctor sit amet aliquam vel
-                  ullamcorper sit amet ligula. ullamcorper sit amet ligula.
-                </p>
-
-                <h4>Biza IT consultancy work process</h4>
-                <p>
-                  Praesent sapien massa convallis a pellentesque nec egestas non
-                  nisi. Proin eget tortor risus donec sollicitudin molestie
-                  malesuada. Curabitur arcu erat accumsan id imperdiet et
-                  porttitor at sem. Cras ultricies ligula sed magna dictum
-                  porta. Curabitur aliquet quam id dui posuere blandit.
-                </p>
-
-                <ul>
-                  <li>
-                    Sed porttitor lectus nibh. Nulla porttitor accumsan
-                    tincidunt.
-                  </li>
-                  <li>
-                    Vivamus magna justo lacinia eget consectetur sed convallis
-                    at tellus.
-                  </li>
-                  <li>
-                    Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia Curae.
-                  </li>
-                  <li>
-                    Donec velit neque auctor sit amet aliquam vel ullamcorper
-                    sit amet ligula.
-                  </li>
-                  <li>
-                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
-                    eget consectetur.
-                  </li>
-                </ul>
+                <h1>Why iOS apps service is top option?</h1>
 
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
+                  The finest option for developing safe, scalable digital
+                  solutions is iOS application development. Our iOS software
+                  developers make sure that your applications are designed to
+                  propel your company into the future.
                 </p>
+                <p>
+                  Depending on their features, iOS applications are better
+                  suited for a particular kind of business. Our team of iOS app
+                  developers assists companies in determining whether iOS is the
+                  right platform for them and which tech stack best meets their
+                  requirements.
+                </p>
+                <p>
+                  The designs of iOS applications are renowned for being
+                  memorable and captivating. We match your brand with the
+                  expectations of your target audience for the Apple
+                  environment. Our iOS app design team specialises in making
+                  memorable user experiences.
+                </p>
+                <p>
+                  Our iPhone application developers have experience developing
+                  extensible, cutting-edge iOS solutions. We specialise in
+                  providing unique iOS apps to both established businesses and
+                  startups throughout the world.
+                </p>
+                <p>
+                  The layout of our iPhone mobile development approach places
+                  security and performance first. Through the use of a
+                  combination of manual and AI-driven automated testing methods,
+                  we ensure that your application is bug-free and hack-proof.
+                </p>
+
+                <h3>Get touch have any question ?</h3>
+                <p>
+                  It is a long established fact that a reader will be distr
+                  acted bioiiy the end gail readable content of a page when
+                  looking.
+                </p>
+
               </div>
             </div>
           </div>

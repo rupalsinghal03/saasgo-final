@@ -13,36 +13,8 @@ const ServicesSidebar = () => {
           <ul className={styles.servicesList}>
             <li>
               <Link href="/services-details">
-                <a>
-                  IT Consultancy <i className="ri-arrow-right-s-line"></i>
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/services-details">
-                <a>
-                  Product Development <i className="ri-arrow-right-s-line"></i>
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/services-details">
-                <a>
-                  IT Support <i className="ri-arrow-right-s-line"></i>
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/services-details">
-                <a>
-                  Cyber Security <i className="ri-arrow-right-s-line"></i>
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/services-details">
-                <a>
-                  Mobile App Development{" "}
+                <a className={styles.active}>
+                  iOS All Service lists
                   <i className="ri-arrow-right-s-line"></i>
                 </a>
               </Link>
@@ -57,14 +29,29 @@ const ServicesSidebar = () => {
             <li>
               <Link href="/services-details">
                 <a>
-                  Web Development <i className="ri-arrow-right-s-line"></i>
+                  Frontend Development <i className="ri-arrow-right-s-line"></i>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/services-details">
                 <a>
-                  Digital Marketing <i className="ri-arrow-right-s-line"></i>
+                  Backend Development <i className="ri-arrow-right-s-line"></i>
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/services-details">
+                <a>
+                  API Integration
+                  <i className="ri-arrow-right-s-line"></i>
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/services-details">
+                <a>
+                  Others Development <i className="ri-arrow-right-s-line"></i>
                 </a>
               </Link>
             </li>
