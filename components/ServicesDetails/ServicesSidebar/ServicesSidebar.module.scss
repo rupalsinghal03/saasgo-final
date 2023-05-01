@@ -12,6 +12,12 @@
             position: relative;
             font-size: 24px;
         }
+        .discussWithUs{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
     }
     .widgetServices {
         background-color: #f9fafb;

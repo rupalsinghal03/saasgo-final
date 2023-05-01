@@ -10,75 +10,60 @@
   display: inline-block;
   margin-bottom: 10px;
 }
-
 .aboutContent h3 {
   font-size: 40px;
   margin-bottom: 18px;
   line-height: 1.3;
 }
-
 .aboutContent p {
   margin-bottom: 0;
 }
-
 .aboutContent .contentBox {
   position: relative;
   margin-top: 30px;
   padding-left: 70px;
 }
-
 .aboutContent .contentBox .icon {
   position: absolute;
   left: 0;
   top: 0;
 }
-
 .aboutContent .contentBox .icon i {
   font-size: 50px;
-  background: -webkit-gradient(linear, left top, right top, from(#fc3b50), color-stop(#fe514b), color-stop(#ff6348), color-stop(#ff7446), to(#ff8346));
   background: linear-gradient(to right, #fc3b50, #fe514b, #ff6348, #ff7446, #ff8346);
   line-height: 0;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
   background-clip: icon;
   -webkit-text-fill-color: transparent;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
-
 .aboutContent .contentBox h4 {
   font-size: 20px;
   margin-bottom: 15px;
 }
-
 .aboutContent .contentBox p {
   margin-bottom: 0;
 }
-
 .aboutContent .innerContentBox {
   margin-top: 30px;
 }
-
 .aboutContent .innerContentBox h4 {
   font-size: 20px;
   margin-bottom: 15px;
 }
-
 .aboutContent .innerContentBox p {
   margin-bottom: 0;
 }
-
 .aboutContent .aboutBtn {
   margin-top: 30px;
 }
-
 .aboutContent .aboutBtn .phoneNumber {
   margin-left: 20px;
   color: var(--black-color);
   font-weight: 400;
   font-size: var(--font-size);
 }
-
 .aboutContent .aboutBtn .phoneNumber i {
   font-size: 20px;
   color: var(--main-color);
@@ -86,7 +71,6 @@
   position: relative;
   top: 2px;
 }
-
 .aboutContent .aboutBtn .phoneNumber:hover {
   color: var(--main-color);
 }
@@ -94,52 +78,40 @@
 .aboutFunFact {
   margin-left: 50px;
 }
-
 .aboutFunFact .funfactBox {
   background-color: var(--white-color);
   padding: 1px;
   text-align: center;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(#fc3b50), color-stop(#fe514b), color-stop(#ff6348), color-stop(#ff7446), to(#ff8346));
   background: linear-gradient(to right, #fc3b50, #fe514b, #ff6348, #ff7446, #ff8346);
 }
-
 .aboutFunFact .funfactBox .funfactBorderColor {
   background: var(--white-color);
   padding: 30px;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .aboutFunFact .funfactBox .icon {
   line-height: 0;
   margin-bottom: 15px;
 }
-
 .aboutFunFact .funfactBox .icon i {
   font-size: 70px;
-  background: -webkit-gradient(linear, left top, right top, from(#fc3b50), color-stop(#fe514b), color-stop(#ff6348), color-stop(#ff7446), to(#ff8346));
   background: linear-gradient(to right, #fc3b50, #fe514b, #ff6348, #ff7446, #ff8346);
   line-height: 0;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
   background-clip: icon;
   -webkit-text-fill-color: transparent;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
-
 .aboutFunFact .funfactBox h3 {
   font-size: 48px;
   color: var(--main-color);
   line-height: 1;
   margin-bottom: 5px;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .aboutFunFact .funfactBox h3 .signIcon {
   font-size: 45px;
   position: relative;
@@ -147,25 +119,19 @@
   left: 5px;
   font-weight: 500;
 }
-
 .aboutFunFact .funfactBox p {
   margin-bottom: 0;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .aboutFunFact .funfactBox:hover {
   background: var(--black-color);
 }
-
 .aboutFunFact .funfactBox:hover .funfactBorderColor {
   background: var(--black-color);
 }
-
 .aboutFunFact .funfactBox:hover h3 {
   color: var(--white-color);
 }
-
 .aboutFunFact .funfactBox:hover p {
   color: var(--white-color);
 }
@@ -213,7 +179,6 @@
     padding: 25px 10px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .aboutContent h3 {
     font-size: 35px;
@@ -238,7 +203,6 @@
     padding: 30px 10px;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .aboutContent span {
     font-size: 15px;
@@ -268,7 +232,6 @@
     font-size: 15px;
   }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .aboutContent .contentBox {
     padding-left: 65px;
@@ -283,5 +246,4 @@
   .aboutContent .contentBox p {
     font-size: 15px;
   }
-}
-/*# sourceMappingURL=AboutCompany.module.css.map */
+}/*# sourceMappingURL=AboutCompany.module.css.map */

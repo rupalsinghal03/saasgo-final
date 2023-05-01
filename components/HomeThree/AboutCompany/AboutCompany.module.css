@@ -10,55 +10,44 @@
   display: inline-block;
   margin-bottom: 10px;
 }
-
 .aboutContent h3 {
   font-size: 40px;
   margin-bottom: 18px;
   line-height: 1.3;
 }
-
 .aboutContent p {
   margin-bottom: 0;
 }
-
 .aboutContent .contentBox {
   position: relative;
   margin-top: 30px;
 }
-
 .aboutContent .contentBox h4 {
   font-size: 20px;
   margin-bottom: 15px;
 }
-
 .aboutContent .contentBox p {
   margin-bottom: 0;
 }
-
 .aboutContent .innerContentBox {
   margin-top: 30px;
 }
-
 .aboutContent .innerContentBox h4 {
   font-size: 20px;
   margin-bottom: 15px;
 }
-
 .aboutContent .innerContentBox p {
   margin-bottom: 0;
 }
-
 .aboutContent .aboutBtn {
   margin-top: 30px;
 }
-
 .aboutContent .aboutBtn .phoneNumber {
   margin-left: 20px;
   color: var(--black-color);
   font-weight: 400;
   font-size: var(--font-size);
 }
-
 .aboutContent .aboutBtn .phoneNumber i {
   font-size: 20px;
   color: var(--main-color);
@@ -66,7 +55,6 @@
   position: relative;
   top: 2px;
 }
-
 .aboutContent .aboutBtn .phoneNumber:hover {
   color: var(--main-color);
 }
@@ -74,7 +62,6 @@
 .aboutImage {
   position: relative;
 }
-
 .aboutImage .imageShape1 {
   position: absolute;
   left: 0;
@@ -104,7 +91,6 @@
     margin-bottom: 20px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .aboutContent h3 {
     font-size: 35px;
@@ -113,7 +99,6 @@
     margin-bottom: 20px;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .aboutContent span {
     font-size: 15px;
@@ -125,7 +110,6 @@
     font-size: var(--font-size);
   }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .aboutContent .contentBox h4 {
     font-size: 18px;
@@ -134,5 +118,4 @@
   .aboutContent .contentBox p {
     font-size: 15px;
   }
-}
-/*# sourceMappingURL=AboutCompany.module.css.map */
+}/*# sourceMappingURL=AboutCompany.module.css.map */

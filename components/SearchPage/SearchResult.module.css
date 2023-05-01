@@ -1,30 +1,23 @@
 .singleBlogCard {
   margin-bottom: 25px;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .singleBlogCard .postImage a {
   display: block;
 }
-
 .singleBlogCard .postImage a img {
   display: inline-block;
 }
-
 .singleBlogCard .postImage a div {
   display: block !important;
 }
-
 .singleBlogCard .postContent {
   margin-top: 25px;
 }
-
 .singleBlogCard .postContent .entryMeta {
   padding: 0;
   margin-bottom: 12px;
 }
-
 .singleBlogCard .postContent .entryMeta li {
   display: inline-block;
   font-size: var(--font-size);
@@ -32,7 +25,6 @@
   margin-right: 32px;
   position: relative;
 }
-
 .singleBlogCard .postContent .entryMeta li::before {
   position: absolute;
   content: "";
@@ -43,38 +35,29 @@
   right: -22px;
   top: 8px;
 }
-
 .singleBlogCard .postContent .entryMeta li:last-child {
   margin-right: 0;
 }
-
 .singleBlogCard .postContent .entryMeta li:last-child::before {
   display: none;
 }
-
 .singleBlogCard .postContent .entryMeta li a {
   color: var(--paragraph-color);
 }
-
 .singleBlogCard .postContent .entryMeta li a:hover {
   color: var(--main-color);
 }
-
 .singleBlogCard .postContent h3 {
   font-size: 25px;
   margin-bottom: 0;
   line-height: 1.5;
 }
-
 .singleBlogCard .postContent h3 a {
   color: var(--black-color);
 }
-
 .singleBlogCard:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
-
 .singleBlogCard:hover .postContent h3 a {
   color: var(--main-color);
 }
@@ -90,7 +73,6 @@
     font-size: 22px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .singleBlogCard .postContent .entryMeta {
     margin-bottom: 10px;
@@ -102,7 +84,6 @@
     font-size: 22px;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .singleBlogCard .postContent .entryMeta {
     margin-bottom: 10px;
@@ -113,5 +94,4 @@
   .singleBlogCard .postContent h3 {
     font-size: 22px;
   }
-}
-/*# sourceMappingURL=SearchResult.module.css.map */
+}/*# sourceMappingURL=SearchResult.module.css.map */

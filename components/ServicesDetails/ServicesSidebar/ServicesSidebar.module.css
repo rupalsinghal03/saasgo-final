@@ -1,41 +1,39 @@
 .widgetArea {
   padding-left: 20px;
 }
-
 .widgetArea .widget {
   margin-bottom: 30px;
 }
-
 .widgetArea .widget:last-child {
   margin-bottom: 0;
 }
-
 .widgetArea .widget .widgetTitle {
   margin-bottom: 25px;
   position: relative;
   font-size: 24px;
 }
-
+.widgetArea .widget .discussWithUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .widgetArea .widgetServices {
   background-color: #f9fafb;
   padding: 30px;
   border-radius: 5px;
 }
-
 .widgetArea .widgetServices .servicesList {
   padding: 0;
   margin-bottom: 0;
 }
-
 .widgetArea .widgetServices .servicesList li {
   list-style-type: none;
   margin-bottom: 15px;
 }
-
 .widgetArea .widgetServices .servicesList li:last-child {
   margin-bottom: 0;
 }
-
 .widgetArea .widgetServices .servicesList li a {
   display: inline-block;
   width: 100%;
@@ -44,33 +42,26 @@
   font-size: 15px;
   position: relative;
 }
-
 .widgetArea .widgetServices .servicesList li a i {
   position: absolute;
   right: 0;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   font-size: 18px;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .widgetArea .widgetServices .servicesList li a:hover {
   color: var(--main-color);
 }
-
 .widgetArea .widgetContact {
   background-color: #f9fafb;
   padding: 30px;
   border-radius: 5px;
 }
-
 .widgetArea .widgetContact .contactList {
   padding: 0;
   margin-bottom: 0;
 }
-
 .widgetArea .widgetContact .contactList li {
   list-style-type: none;
   margin-bottom: 15px;
@@ -79,11 +70,9 @@
   position: relative;
   padding-left: 80px;
 }
-
 .widgetArea .widgetContact .contactList li:last-child {
   margin-bottom: 0;
 }
-
 .widgetArea .widgetContact .contactList li span {
   color: var(--main-color);
   font-size: var(--font-size);
@@ -91,20 +80,12 @@
   left: 0;
   top: 0;
 }
-
 .widgetArea .widgetContact .contactList li a {
   color: var(--paragraph-color);
 }
-
 .widgetArea .widgetContact .contactList li a:hover {
   color: var(--main-color);
   letter-spacing: 1px;
-}
-.discussWithUs{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 @media only screen and (max-width: 767px) {
@@ -123,7 +104,6 @@
     padding: 20px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .widgetArea {
     padding-left: 0;
@@ -134,7 +114,6 @@
     margin-bottom: 20px;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .widgetArea {
     padding-left: 0;
@@ -149,5 +128,4 @@
   .widgetArea .widgetContact {
     padding: 20px;
   }
-}
-/*# sourceMappingURL=ServicesSidebar.module.css.map */
+}/*# sourceMappingURL=ServicesSidebar.module.css.map */

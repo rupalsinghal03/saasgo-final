@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CAMtB;;AARD,AAII,aAJS,CAIT,IAAI,CAAC;EACD,SAAS,EAAE,gBAAgB;EAC3B,KAAK,EAAE,iBAAiB;CAC3B;;AAEL,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,MAAM;CAOrB;;AARD,AAEI,SAFK,CAEL,GAAG,CAAC;EACA,OAAO,EAAE,uBAAuB;EAChC,SAAS,EAAE,eAAe;EAC1B,KAAK,EAAE,eAAe;EACtB,MAAM,EAAE,eAAe;CAC1B",
-    "sources": [
-        "TechnologiesSlider.module.scss"
-    ],
-    "names": [],
-    "file": "TechnologiesSlider.module.css"
-}
+{"version":3,"sources":["TechnologiesSlider.module.scss","TechnologiesSlider.module.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,mBAAA;ACCJ;ADCI;EACI,2BAAA;EACA,wBAAA;ACCR;;ADEA;EACI,kBAAA;ACCJ;ADAI;EACI,gCAAA;EACA,0BAAA;EACA,sBAAA;EACA,uBAAA;ACER","file":"TechnologiesSlider.module.css"}

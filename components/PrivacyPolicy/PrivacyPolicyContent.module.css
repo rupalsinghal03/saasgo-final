@@ -2,32 +2,26 @@
   margin-bottom: 15px;
   font-size: 35px;
 }
-
 .privacyPolicyContent h2 {
   margin-bottom: 15px;
   font-size: 30px;
 }
-
 .privacyPolicyContent h3 {
   margin-bottom: 15px;
   font-size: 25px;
 }
-
 .privacyPolicyContent h4 {
   margin-bottom: 15px;
   font-size: 22px;
 }
-
 .privacyPolicyContent h5 {
   margin-bottom: 15px;
   font-size: 20px;
 }
-
 .privacyPolicyContent h6 {
   margin-bottom: 15px;
   font-size: 18px;
 }
-
 .privacyPolicyContent .blockquote, .privacyPolicyContent blockquote {
   margin-bottom: 30px;
   background-color: #e6f2f5;
@@ -36,25 +30,20 @@
   border-radius: 5px;
   line-height: 1.5;
 }
-
 .privacyPolicyContent .blockquote p, .privacyPolicyContent blockquote p {
   margin-bottom: 0;
   line-height: 1.8;
   font-weight: 400;
 }
-
 .privacyPolicyContent .blockquote::after, .privacyPolicyContent blockquote::after {
   display: none;
 }
-
 .privacyPolicyContent .blockquote::before, .privacyPolicyContent blockquote::before {
   display: none;
 }
-
 .privacyPolicyContent ol, .privacyPolicyContent ul {
   margin-bottom: 20px;
 }
-
 .privacyPolicyContent ol li, .privacyPolicyContent ul li {
   margin-bottom: 10px;
   color: var(--font-size);
@@ -83,5 +72,4 @@
   .termsOfServiceContent h6 {
     font-size: 18px;
   }
-}
-/*# sourceMappingURL=PrivacyPolicyContent.module.css.map */
+}/*# sourceMappingURL=PrivacyPolicyContent.module.css.map */

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,gBAAgB,EAAE,OAAO;CAC5B;;AACD,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CAMtB;;AARD,AAII,aAJS,CAIT,IAAI,CAAC;EACD,SAAS,EAAE,gBAAgB;EAC3B,KAAK,EAAE,iBAAiB;CAC3B;;AAEL,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,MAAM;CAOrB;;AARD,AAEI,SAFK,CAEL,GAAG,CAAC;EACA,OAAO,EAAE,uBAAuB;EAChC,SAAS,EAAE,eAAe;EAC1B,KAAK,EAAE,eAAe;EACtB,MAAM,EAAE,eAAe;CAC1B",
-    "sources": [
-        "PartnerSlider.module.scss"
-    ],
-    "names": [],
-    "file": "PartnerSlider.module.css"
-}
+{"version":3,"sources":["PartnerSlider.module.scss","PartnerSlider.module.css"],"names":[],"mappings":"AAAA;EACI,yBAAA;ACCJ;;ADCA;EACI,kBAAA;EACA,mBAAA;ACEJ;ADAI;EACI,2BAAA;EACA,wBAAA;ACER;;ADCA;EACI,kBAAA;ACEJ;ADDI;EACI,gCAAA;EACA,0BAAA;EACA,sBAAA;EACA,uBAAA;ACGR","file":"PartnerSlider.module.css"}

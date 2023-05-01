@@ -83,15 +83,15 @@ const ServicesSidebar = () => {
 
           <ul className={styles.contactList}>
             <li>
-              <span>Address : </span>413 Mesa Drive North Las Vegas, NV 89032
+              <span>Address : </span>413 XYZ North Delhi 110007, India
             </li>
             <li>
               <span>Phone : </span>
-              <a href="tel:15143125678">+1 (514) 312-5678</a>
+              <a href="tel:+91 8506884052">+91 85068 84052</a>
             </li>
             <li>
               <span>Email : </span>
-              <a href="mailto:hello@biza.com">hello@biza.com</a>
+              <a href="mailto:hello@biza.com">contact@saasgo.in</a>
             </li>
           </ul>
         </div>

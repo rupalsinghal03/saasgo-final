@@ -6,7 +6,6 @@
   text-align: center;
   margin-bottom: 45px;
 }
-
 .partnerTitle span {
   font-size: var(--font-size);
   color: var(--main-color);
@@ -15,11 +14,9 @@
 .imageBox {
   text-align: center;
 }
-
 .imageBox img {
   display: inline-block !important;
   max-width: 100% !important;
   width: auto !important;
   margin: auto !important;
-}
-/*# sourceMappingURL=PartnerSlider.module.css.map */
+}/*# sourceMappingURL=PartnerSlider.module.css.map */

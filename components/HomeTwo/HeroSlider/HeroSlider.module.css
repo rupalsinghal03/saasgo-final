@@ -3,7 +3,6 @@
   z-index: 1;
   overflow: hidden;
 }
-
 .heroSlidesArea .containerFluid {
   padding-left: 100px;
   padding-right: 100px;
@@ -20,7 +19,6 @@
   position: relative;
   z-index: 1;
 }
-
 .heroSlidesItem::before {
   position: absolute;
   content: "";
@@ -31,7 +29,7 @@
   top: 0;
   background-color: #000000;
   z-index: -1;
-  opacity: .50;
+  opacity: 0.5;
 }
 
 .heroSlidesContent {
@@ -40,7 +38,6 @@
   width: 100%;
   margin: auto;
 }
-
 .heroSlidesContent span {
   font-size: 18px;
   color: var(--white-color);
@@ -48,59 +45,45 @@
   display: inline-block;
   margin-bottom: 20px;
 }
-
 .heroSlidesContent h1 {
   font-size: 65px;
   margin-bottom: 0;
   color: var(--white-color);
   line-height: 1.3;
 }
-
 .heroSlidesContent .slidesBtn {
   padding: 0;
   margin-top: 35px;
   margin-bottom: 0;
 }
-
 .heroSlidesContent .slidesBtn li {
   list-style-type: none;
   display: inline-block;
   margin-right: 15px;
 }
-
 .heroSlidesContent .slidesBtn li:last-child {
   margin-right: 0;
 }
-
 .heroSlidesContent .slidesBtn li .optionalBtn {
   padding: 15px 45px;
   text-align: center;
   color: var(--black-color);
   font-size: var(--font-size);
   font-weight: 400;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   position: relative;
   border-radius: 0;
   z-index: 0;
   background: var(--white-color);
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   overflow: hidden;
   white-space: nowrap;
 }
-
 .heroSlidesContent .slidesBtn li .optionalBtn:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -111,29 +94,17 @@
   background: var(--main-color);
   border-radius: 50%;
   z-index: -1;
-  -webkit-transform-origin: top center;
-          transform-origin: top center;
-  -webkit-transform: translateX(-50%) translateY(-5%) scale(0.4);
-          transform: translateX(-50%) translateY(-5%) scale(0.4);
-  -webkit-transition: -webkit-transform .9s;
-  transition: -webkit-transform .9s;
-  transition: transform .9s;
-  transition: transform .9s, -webkit-transform .9s;
+  transform-origin: top center;
+  transform: translateX(-50%) translateY(-5%) scale(0.4);
+  transition: transform 0.9s;
 }
-
 .heroSlidesContent .slidesBtn li .optionalBtn:hover {
   color: var(--white-color);
 }
-
 .heroSlidesContent .slidesBtn li .optionalBtn:hover:before {
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
-  -webkit-transform: translateX(-45%) translateY(0) scale(1);
-          transform: translateX(-45%) translateY(0) scale(1);
-  -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
+  transform: translateX(-45%) translateY(0) scale(1);
+  transform-origin: bottom center;
 }
 
 .heroSlidesSocial {
@@ -142,40 +113,31 @@
   position: absolute;
   left: 20px;
   top: 45%;
-  -webkit-transform: translateY(-45%);
-          transform: translateY(-45%);
+  transform: translateY(-45%);
 }
-
 .heroSlidesSocial li {
   list-style-type: none;
 }
-
 .heroSlidesSocial li:last-child a {
   border-bottom: none;
 }
-
 .heroSlidesSocial li:last-child a:hover {
   border: none;
 }
-
 .heroSlidesSocial li a {
   padding: 20px;
   line-height: 0;
   border-bottom: 1px solid #e4e4e7;
 }
-
 .heroSlidesSocial li a i {
   color: var(--paragraph-color);
   font-size: 20px;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .heroSlidesSocial li a:hover {
   background-color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
 }
-
 .heroSlidesSocial li a:hover i {
   color: var(--white-color);
 }
@@ -184,10 +146,8 @@
   position: absolute;
   right: -25px;
   top: 65px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
-
 .heroSlidesEmail a {
   color: var(--black-color);
   font-size: var(--font-size);
@@ -199,17 +159,14 @@
   position: absolute;
   right: -68px;
   bottom: 110px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
-
 .heroSlidesTime span {
   color: var(--black-color);
   font-size: var(--font-size);
   font-weight: 400;
   letter-spacing: 1px;
 }
-
 .heroSlidesTime span i {
   color: var(--main-color);
   position: relative;
@@ -254,7 +211,6 @@
     display: none;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .heroSlidesArea .containerFluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
@@ -281,7 +237,6 @@
     display: none;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .heroSlidesArea .containerFluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
@@ -312,7 +267,6 @@
     right: -105px;
   }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .heroSlidesArea .containerFluid {
     padding-right: var(--bs-gutter-x, 0.75rem);
@@ -341,5 +295,4 @@
   .heroSlidesTime {
     right: -100px;
   }
-}
-/*# sourceMappingURL=HeroSlider.module.css.map */
+}/*# sourceMappingURL=HeroSlider.module.css.map */

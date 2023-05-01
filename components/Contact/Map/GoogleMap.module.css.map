@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACI,IADA,CACA,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,IAAI;CACtB",
-    "sources": [
-        "GoogleMap.module.scss"
-    ],
-    "names": [],
-    "file": "GoogleMap.module.css"
-}
+{"version":3,"sources":["GoogleMap.module.scss","GoogleMap.module.css"],"names":[],"mappings":"AACI;EACI,WAAA;EACA,aAAA;EACA,mBAAA;ACAR","file":"GoogleMap.module.css"}

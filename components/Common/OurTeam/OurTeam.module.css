@@ -1,17 +1,13 @@
 .singleTeamCard {
   margin-bottom: 25px;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .singleTeamCard .teamImage {
   position: relative;
 }
-
 .singleTeamCard .teamImage div {
   display: block !important;
 }
-
 .singleTeamCard .teamImage .actionList {
   padding: 0;
   margin-bottom: 0;
@@ -22,53 +18,43 @@
   text-align: center;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .singleTeamCard .teamImage .actionList li {
   list-style-type: none;
   display: inline-block;
   margin: 0;
   border-right: 1px solid #ebe7e4;
 }
-
 .singleTeamCard .teamImage .actionList li:last-child {
   border-right: none;
 }
-
 .singleTeamCard .teamImage .actionList li a {
   background-color: #fffbf4;
   padding: 15px;
   line-height: 0;
   color: var(--paragraph-color);
 }
-
 .singleTeamCard .teamImage .actionList li a i {
   font-size: 18px;
 }
-
 .singleTeamCard .teamImage .actionList li a:hover {
   background-color: var(--main-color);
   color: var(--white-color);
 }
-
 .singleTeamCard .teamContent {
   margin-top: 25px;
   text-align: center;
 }
-
 .singleTeamCard .teamContent h3 {
   font-size: 20px;
   margin-bottom: 0;
 }
-
 .singleTeamCard .teamContent span {
   display: inline-block;
   margin-top: 10px;
   color: var(--paragraph-color);
 }
-
 .singleTeamCard:hover .actionList {
   opacity: 1;
   visibility: visible;
@@ -78,12 +64,10 @@
 .seeMoreBtn {
   margin-top: 20px;
 }
-
 .seeMoreBtn a {
   color: var(--black-color);
   border-bottom: 1px solid var(--black-color);
 }
-
 .seeMoreBtn a:hover {
   border-bottom: 1px solid var(--main-color);
   color: var(--main-color);
@@ -101,5 +85,4 @@
   .singleTeamCard .teamImage .actionList li a i {
     font-size: 15px;
   }
-}
-/*# sourceMappingURL=OurTeam.module.css.map */
+}/*# sourceMappingURL=OurTeam.module.css.map */
