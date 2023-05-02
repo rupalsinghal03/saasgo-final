@@ -221,7 +221,7 @@ const NavbarStyleThree = () => {
                   <li className="nav-item">
                     <Link href="/services">
                       <a
-                        onClick={(e) => e.preventDefault()}
+                        onClick={toggleNavbar}
                         className="dropdown-toggle nav-link"
                       >
                         Services
@@ -234,7 +234,7 @@ const NavbarStyleThree = () => {
                           <Link href="/services" activeClassName="active">
                             <a onClick={toggleNavbar} className="nav-link">
                               <img
-                                src="/images/services/services-6.svg"
+                                src="/images/services/services-1.svg"
                                 alt=""
                               />
                               iOS
@@ -246,10 +246,10 @@ const NavbarStyleThree = () => {
                           <Link href="/services" activeClassName="active">
                             <a onClick={toggleNavbar} className="nav-link">
                               <img
-                                src="/images/services/services-6.svg"
+                                src="/images/services/services-2.svg"
                                 alt=""
                               />
-                              iOS
+                              Cloud Service
                             </a>
                           </Link>
                         </li>
@@ -257,10 +257,10 @@ const NavbarStyleThree = () => {
                           <Link href="/services" activeClassName="active">
                             <a onClick={toggleNavbar} className="nav-link">
                               <img
-                                src="/images/services/services-6.svg"
+                                src="/images/services/services-3.svg"
                                 alt=""
                               />
-                              iOS
+                              Blockchain
                             </a>
                           </Link>
                         </li>
@@ -272,10 +272,24 @@ const NavbarStyleThree = () => {
                           >
                             <a onClick={toggleNavbar} className="nav-link">
                               <img
-                                src="/images/services/services-6.svg"
+                                src="/images/services/services-4.svg"
                                 alt=""
                               />
-                              Services Details
+                              Android
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/services/services-5.svg"
+                                alt=""
+                              />
+                              Software development
                             </a>
                           </Link>
                         </li>
@@ -289,7 +303,7 @@ const NavbarStyleThree = () => {
                                 src="/images/services/services-6.svg"
                                 alt=""
                               />
-                              Services Details
+                              DevOps
                             </a>
                           </Link>
                         </li>
@@ -300,10 +314,80 @@ const NavbarStyleThree = () => {
                           >
                             <a onClick={toggleNavbar} className="nav-link">
                               <img
-                                src="/images/services/services-6.svg"
+                                src="/images/services/services-7.svg"
                                 alt=""
                               />
-                              Services Details
+                              Flutter
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/services/services-8.svg"
+                                alt=""
+                              />
+                              UX/UI Design
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/services/services-9.svg"
+                                alt=""
+                              />
+                              Business Intelligence
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/services/services-10.svg"
+                                alt=""
+                              />
+                              React Native
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/services/services-11.svg"
+                                alt=""
+                              />
+                              AI/ML
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/services/services-12.svg"
+                                alt=""
+                              />
+                              Data Science Analytics
                             </a>
                           </Link>
                         </li>
@@ -320,11 +404,133 @@ const NavbarStyleThree = () => {
                   </li>
                   <li className="nav-item">
                     <Link href="/">
-                      <a onClick={toggleNavbar} className="nav-link">
+                      <a onClick={toggleNavbar} className="dropdown-toggle nav-link">
                         Industry
-                        {/* <i className="ri-arrow-down-s-line"></i> */}
                       </a>
                     </Link>
+                    <div className="dropdown-menu">
+                      <ul>
+                        <li className="nav-item">
+                          <Link href="/services" activeClassName="active">
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-1.svg"
+                                alt=""
+                              />
+                              On Demand
+                            </a>
+                          </Link>
+                        </li>
+
+                        <li className="nav-item">
+                          <Link href="/services" activeClassName="active">
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-2.svg"
+                                alt=""
+                              />
+                              Travel
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link href="/services" activeClassName="active">
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-3.svg"
+                                alt=""
+                              />
+                              Education
+                            </a>
+                          </Link>
+                        </li>
+
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-4.svg"
+                                alt=""
+                              />
+                              Healthcare
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-5.svg"
+                                alt=""
+                              />
+                              Insurance
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-6.svg"
+                                alt=""
+                              />
+                              News
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-7.svg"
+                                alt=""
+                              />
+                              Entertainment
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-8.svg"
+                                alt=""
+                              />
+                              Ecommerce
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href="/services-details"
+                            activeClassName="active"
+                          >
+                            <a onClick={toggleNavbar} className="nav-link">
+                              <img
+                                src="/images/industry/industry-9.svg"
+                                alt=""
+                              />
+                              Real Estate
+                            </a>
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
                   </li>
 
                   {/* <li className="nav-item">
