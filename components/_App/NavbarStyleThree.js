@@ -37,7 +37,7 @@ const NavbarStyleThree = () => {
     <>
       <div id="navbar" className="navbar-area navbar-style-two fixed-top">
         <div className="main-navbar">
-          <div className="container">
+          <div className="fluid-container">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/">
                 <a className="navbar-brand">
@@ -68,23 +68,6 @@ const NavbarStyleThree = () => {
                         Home
                       </a>
                     </Link>
-                    {/* <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Home Demo - 1</a>
-                                                </Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link href="/index-2" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Home Demo - 2</a>
-                                                </Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link href="/index-3" activeClassName="active">
-                                                    <a onClick={toggleNavbar} className="nav-link">Home Demo - 3</a>
-                                                </Link>
-                                            </li>
-                                        </ul> */}
                   </li>
 
                   {/* <li className="nav-item megamenu">
@@ -229,307 +212,559 @@ const NavbarStyleThree = () => {
                       </a>
                     </Link>
                     <div className="dropdown-menu">
-                      <ul>
-                        <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-1.svg"
-                                alt=""
-                              />
-                              iOS
-                            </a>
-                          </Link>
-                        </li>
+                      <div className="row">
+                        <div className="col-lg-7 services-item">
+                          <ul className="">
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-1.svg"
+                                    alt=""
+                                  />
+                                  iOS
+                                </a>
+                              </Link>
+                            </li>
 
-                        <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-2.svg"
-                                alt=""
-                              />
-                              Cloud Service
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-3.svg"
-                                alt=""
-                              />
-                              Blockchain
-                            </a>
-                          </Link>
-                        </li>
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-2.svg"
+                                    alt=""
+                                  />
+                                  Cloud Service
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-3.svg"
+                                    alt=""
+                                  />
+                                  Blockchain
+                                </a>
+                              </Link>
+                            </li>
 
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-4.svg"
-                                alt=""
-                              />
-                              Android
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-5.svg"
-                                alt=""
-                              />
-                              Software development
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-6.svg"
-                                alt=""
-                              />
-                              DevOps
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-7.svg"
-                                alt=""
-                              />
-                              Flutter
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-8.svg"
-                                alt=""
-                              />
-                              UX/UI Design
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-9.svg"
-                                alt=""
-                              />
-                              Business Intelligence
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-10.svg"
-                                alt=""
-                              />
-                              React Native
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-11.svg"
-                                alt=""
-                              />
-                              AI/ML
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/services/services-12.svg"
-                                alt=""
-                              />
-                              Data Science Analytics
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-4.svg"
+                                    alt=""
+                                  />
+                                  Android
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-5.svg"
+                                    alt=""
+                                  />
+                                  Software development
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-6.svg"
+                                    alt=""
+                                  />
+                                  DevOps
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-7.svg"
+                                    alt=""
+                                  />
+                                  Flutter
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-8.svg"
+                                    alt=""
+                                  />
+                                  UX/UI Design
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-9.svg"
+                                    alt=""
+                                  />
+                                  Business Intelligence
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-10.svg"
+                                    alt=""
+                                  />
+                                  React Native
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-11.svg"
+                                    alt=""
+                                  />
+                                  AI/ML
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-12.svg"
+                                    alt=""
+                                  />
+                                  Data Science Analytics
+                                </a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-lg-5 services-connect">
+                          <div className="services-contact">
+                            <img
+                              src="/images/services/service-26.png"
+                              className="services-contact-img"
+                              alt=""
+                            />
+                            <h5>Needed an IT Service?</h5>
+                            <p>
+                              We are here to get a solution for the work causing
+                              you trouble. You just need to call us.
+                            </p>
+                            <li>
+                              <a href="/contact" className="default-btn">
+                                Contact Now
+                              </a>
+                            </li>
+                            <p>
+                              Welcome to saasGO! Please let us know how we can
+                              assist you.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </li>
                   <li className="nav-item">
                     <Link href="/">
-                      <a onClick={toggleNavbar} className="nav-link">
+                      <a
+                        onClick={toggleNavbar}
+                        className="dropdown-toggle nav-link"
+                      >
                         Products
                         {/* <i className="ri-arrow-down-s-line"></i> */}
                       </a>
                     </Link>
+                    <div className="dropdown-menu">
+                      <div className="row">
+                        <div className="col-lg-7 services-item">
+                          <ul className="">
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/services/services-5.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/product/products-1.svg"
+                                    alt=""
+                                  />
+                                  Hospital management software
+                                </a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-lg-5 services-connect">
+                          <div className="services-contact">
+                            <img
+                              src="/images/product/product-1.png"
+                              className="services-contact-img product-img"
+                              alt=""
+                            />
+                            <h5>Needed an IT Service?</h5>
+                            <p>
+                              We are here to get a solution for the work causing
+                              you trouble. You just need to call us.
+                            </p>
+                            <li>
+                              <a href="/contact" className="default-btn">
+                                Contact Now
+                              </a>
+                            </li>
+                            <p>
+                              Welcome to saasGO! Please let us know how we can
+                              assist you.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
                   <li className="nav-item">
                     <Link href="/">
-                      <a onClick={toggleNavbar} className="dropdown-toggle nav-link">
+                      <a
+                        onClick={toggleNavbar}
+                        className="dropdown-toggle nav-link"
+                      >
                         Industry
                       </a>
                     </Link>
                     <div className="dropdown-menu">
-                      <ul>
-                        <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-1.svg"
-                                alt=""
-                              />
-                              On Demand
-                            </a>
-                          </Link>
-                        </li>
+                      <div className="row">
+                        <div className="col-lg-7 services-item">
+                          <ul className="">
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-1.svg"
+                                    alt=""
+                                  />
+                                  On Demand
+                                </a>
+                              </Link>
+                            </li>
 
-                        <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-2.svg"
-                                alt=""
-                              />
-                              Travel
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-3.svg"
-                                alt=""
-                              />
-                              Education
-                            </a>
-                          </Link>
-                        </li>
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-2.svg"
+                                    alt=""
+                                  />
+                                  Travel
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link href="/services" activeClassName="active">
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-3.svg"
+                                    alt=""
+                                  />
+                                  Education
+                                </a>
+                              </Link>
+                            </li>
 
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-4.svg"
-                                alt=""
-                              />
-                              Healthcare
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-5.svg"
-                                alt=""
-                              />
-                              Insurance
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-6.svg"
-                                alt=""
-                              />
-                              News
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-7.svg"
-                                alt=""
-                              />
-                              Entertainment
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-8.svg"
-                                alt=""
-                              />
-                              Ecommerce
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="nav-item">
-                          <Link
-                            href="/services-details"
-                            activeClassName="active"
-                          >
-                            <a onClick={toggleNavbar} className="nav-link">
-                              <img
-                                src="/images/industry/industry-9.svg"
-                                alt=""
-                              />
-                              Real Estate
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-4.svg"
+                                    alt=""
+                                  />
+                                  Healthcare
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-5.svg"
+                                    alt=""
+                                  />
+                                  Insurance
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-6.svg"
+                                    alt=""
+                                  />
+                                  News
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-7.svg"
+                                    alt=""
+                                  />
+                                  Entertainment
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-8.svg"
+                                    alt=""
+                                  />
+                                  Ecommerce
+                                </a>
+                              </Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link
+                                href="/services-details"
+                                activeClassName="active"
+                              >
+                                <a onClick={toggleNavbar} className="nav-link">
+                                  <img
+                                    src="/images/industry/industry-9.svg"
+                                    alt=""
+                                  />
+                                  Real Estate
+                                </a>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-lg-5 services-connect">
+                          <div className="services-contact">
+                            <img
+                              src="/images/industry/industies-1.svg"
+                              className="services-contact-img"
+                              alt=""
+                            />
+                            <h5>Needed an IT Service?</h5>
+                            <p>
+                              We are here to get a solution for the work causing
+                              you trouble. You just need to call us.
+                            </p>
+                            <li>
+                              <a href="/contact" className="default-btn">
+                                Contact Now
+                              </a>
+                            </li>
+                            <p>
+                              Welcome to saasGO! Please let us know how we can
+                              assist you.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </li>
 

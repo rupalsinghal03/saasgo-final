@@ -37,7 +37,7 @@ const NavbarStyleOne = () => {
     <>
       <div id="navbar" className="navbar-area">
         <div className="main-navbar bg-f3f8ff">
-          <div className="container">
+          <div className="fluid-container">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/">
                 <a className="navbar-brand">
