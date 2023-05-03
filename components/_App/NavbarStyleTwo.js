@@ -37,7 +37,7 @@ const NavbarStyleTwo = () => {
     <>
       <div id="navbar" className="navbar-area navbar-style-two">
         <div className="main-navbar">
-          <div className="fluid-container">
+          <div className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/">
                 <a className="navbar-brand">
