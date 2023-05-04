@@ -779,9 +779,9 @@ const NavbarStyleOne = () => {
                     </section>
                   </li>
                   <li className="nav-item">
-                    <Link href="/blog">
+                    <Link href="#">
                       <a onClick={toggleNavbar} className="nav-link">
-                        Blog
+                        Portfolio
                       </a>
                     </Link>
                   </li>
