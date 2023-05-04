@@ -10,6 +10,7 @@
   padding: 0;
 }
 .main-navbar .navbar .navbar-brand {
+  margin-left: 100px;
   padding: 0 25px 0 0;
 }
 .main-navbar .navbar ul {
@@ -18,7 +19,6 @@
   margin-bottom: 0;
 }
 .main-navbar .navbar .navbar-nav .nav-item {
-  position: relative;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -57,7 +57,7 @@
   left: 0;
   z-index: 99;
   opacity: 0;
-  width: 550px;
+  width: 100%;
   display: block;
   border-radius: 10px;
   padding: 10px 0;
@@ -67,23 +67,44 @@
   background: var(--white-color);
   transition: all 0.2s ease-in-out;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-  border: 1px solid #eee;
+  border: 0px;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  -o-border-image: linear-gradient(90deg, #fc3b50 0%, #fe514b 25%, #ff6348 50%, #ff7446 75%, #ff8346 100%) 1;
+     border-image: linear-gradient(90deg, #fc3b50 0%, #fe514b 25%, #ff6348 50%, #ff7446 75%, #ff8346 100%) 1;
 }
-.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 10px;
-  background-image: var(--gradient-color);
-  background-clip: content-box;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-item {
+  padding: 60px 0 60px 118px;
 }
-.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu ul {
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-item ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect {
+  padding: 10px 0;
+}
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect .services-contact {
+  padding-left: 110px;
+  width: 85%;
+  height: 100%;
+  background: #FFEFEC;
+  float: right;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect .services-contact p {
+  padding: 0 100px;
+}
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect .services-contact .services-contact-img {
+  height: 80%;
+  position: absolute;
+  left: -20%;
+}
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect .services-contact .product-img {
+  width: 50%;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li {
   margin: 0;
@@ -246,7 +267,7 @@
   margin-right: 20px;
 }
 .main-navbar .navbar .others-options .option-item:last-child {
-  margin-right: 0;
+  margin-right: 100px;
 }
 .main-navbar .navbar .others-options .option-item .search-box {
   cursor: pointer;
@@ -358,6 +379,7 @@
   border: none;
   border-radius: 0;
   padding: 0;
+  margin-right: 15px;
 }
 .navbar-toggler:focus {
   outline: 0;
@@ -571,6 +593,38 @@
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
     padding: 8px 20px;
   }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-item {
+    padding: 60px 0 60px 118px;
+  }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-item ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect {
+    padding: 10px 0;
+  }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect .services-contact {
+    padding-left: 0px;
+    width: 90%;
+    height: 100%;
+    padding: 5px;
+    background: #FFEFEC;
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect .services-contact p {
+    padding: 0;
+  }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu .services-connect .services-contact .services-contact-img {
+    height: 75%;
+    position: absolute;
+    left: -50px;
+    opacity: 0.3;
+  }
   .main-navbar .navbar .others-options .option-item .default-btn {
     padding: 10px 15px;
     font-size: 14px;
@@ -611,6 +665,7 @@
     background: var(--main-color);
   }
   .main-navbar .navbar .navbar-nav .nav-item {
+    position: relative;
     margin: 0;
   }
   .main-navbar .navbar .navbar-nav .nav-item a {
@@ -622,8 +677,8 @@
     display: none;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
-    position: relative;
-    visibility: visible;
+    position: absolute;
+    visibility: hidden;
     opacity: 1;
     top: 0 !important;
     width: 100%;
