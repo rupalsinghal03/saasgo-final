@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 
 import styles from '@/components/Career/CareerContent.module.css'
 import ApplyForm from './ApplyForm/ApplyForm'
+import CareerModel from './CareerModel'
 
 // Career Info Content
 const CareerInfoContent = [
@@ -84,6 +85,10 @@ const CareerInfoContent = [
 ]
 
 const CareerContent = () => {
+const [model,setModel]=useState(false);
+const closeModal = ()=>{
+    setModel(false)
+}
     return (
         <>
             <div className="career-area pt-100 pb-100">
@@ -105,9 +110,9 @@ const CareerContent = () => {
                                             </div>
                                             <div className="col-lg-5 col-sm-6">
                                                 <div className={styles.careerBtn}>
-                                                    <Link href={val.viewDetailsLink}>
-                                                        <a className="default-btn">{val.viewDetailsText}</a>
-                                                    </Link>
+                                                    {/* <Link href={val.viewDetailsLink}> */}
+                                                        <a className="default-btn" onClick={()=>setModel(true)}>{val.viewDetailsText}</a>
+                                                    {/* </Link> */}
                                                     <p><span>{val.deadline}</span> {val.date}</p>
                                                 </div>
                                             </div>
@@ -123,6 +128,7 @@ const CareerContent = () => {
                     </div>
                 </div>
             </div>
+            {model && <CareerModel closeMyModal={closeModal}/>}
         </>
     )
 }
