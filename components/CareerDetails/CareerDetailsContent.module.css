@@ -4,34 +4,42 @@
   display: inline-block;
   margin-bottom: 15px;
 }
+
 .careerDetailsDesc h1 {
   font-size: 40px;
   margin-bottom: 10px;
 }
+
 .careerDetailsDesc h2 {
   font-size: 35px;
   margin-bottom: 10px;
 }
+
 .careerDetailsDesc h3 {
   font-size: 30px;
   margin-bottom: 10px;
 }
+
 .careerDetailsDesc h4 {
   font-size: 25px;
   margin-bottom: 10px;
 }
+
 .careerDetailsDesc h5 {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
 .careerDetailsDesc h6 {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
 .careerDetailsDesc ul {
   padding: 0;
   margin-bottom: 20px;
 }
+
 .careerDetailsDesc ul li {
   list-style-type: none;
   color: var(--paragraph-color);
@@ -39,6 +47,7 @@
   position: relative;
   padding-left: 20px;
 }
+
 .careerDetailsDesc ul li::before {
   position: absolute;
   content: "";
@@ -50,56 +59,99 @@
   background-color: var(--main-color);
   border-radius: 50px;
 }
+
 .careerDetailsDesc ul li:last-child {
   margin-bottom: 0;
 }
+
 .careerDetailsDesc ol {
   margin-bottom: 20px;
 }
+
 .careerDetailsDesc ol li {
   margin-bottom: 10px;
 }
+
 .careerDetailsDesc ol li:last-child {
   margin-bottom: 0;
+}
+
+/* .modal-dialog {
+  max-width: 1140px;
+  margin: 1.75rem auto;
+} */
+
+/* .CareerDetailsContent_modaldialog__UHZsI{
+  max-width: 1140px;
+} */
+
+.modalWrapper {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    /* margin: 31% 350px; */
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform: scale(1);
+    background: #ffffff65;
+    z-index: 100;
+  
 }
 
 @media only screen and (max-width: 767px) {
   .careerDetailsDesc h1 {
     font-size: 25px;
   }
+
   .careerDetailsDesc h2 {
     font-size: 25px;
   }
+
   .careerDetailsDesc h3 {
     font-size: 22px;
   }
+
   .careerDetailsDesc h4 {
     font-size: 20px;
   }
+
   .careerDetailsDesc h5 {
     font-size: 20px;
   }
+
   .careerDetailsDesc h6 {
     font-size: 15px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .careerDetailsDesc h1 {
     font-size: 30px;
   }
+
   .careerDetailsDesc h2 {
     font-size: 27px;
   }
+
   .careerDetailsDesc h3 {
     font-size: 26px;
   }
+
   .careerDetailsDesc h4 {
     font-size: 25px;
   }
+
   .careerDetailsDesc h5 {
     font-size: 20px;
   }
+
   .careerDetailsDesc h6 {
     font-size: 15px;
   }
-}/*# sourceMappingURL=CareerDetailsContent.module.css.map */
+
+}
+
+/*# sourceMappingURL=CareerDetailsContent.module.css.map */
