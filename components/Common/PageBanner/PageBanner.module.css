@@ -8,41 +8,63 @@
   position: relative;
   z-index: 1;
 }
+
 .pageBannerArea::before {
   position: absolute;
   content: "";
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: var(--gradient-color);
+  left: 0px;
+  bottom: 0px;
+  width: 320px;
+  height: 120px;
+  background: #FD454D;
   z-index: -1;
   opacity: 0.9;
+  -webkit-filter: blur(122px);
+  filter: blur(122px);
+}
+.pageBannerArea::after {
+  position: absolute;
+  content: "";
+  right: 0px;
+  top: 0px;
+  width: 320px;
+  height: 120px;
+  background: #FD454D;
+  z-index: -1;
+  opacity: 0.9;
+  filter: blur(122px);
 }
 
 .pageTitleContent {
   text-align: center;
 }
+
 .pageTitleContent h2 {
-  font-size: 70px;
-  margin-bottom: 20px;
+  font-size: 40px;
+  /* margin-bottom: 20px; */
   font-weight: 800;
-  color: var(--white-color);
+  color: #101A29;
+  text-align: left;
 }
+
 .pageTitleContent ul {
   padding-left: 0;
   margin-bottom: 0;
+  text-align: end;
 }
+
 .pageTitleContent ul li {
   display: inline-block;
   list-style-type: none;
   font-size: var(--font-size);
   font-weight: 400;
-  color: var(--white-color);
+  color: #101A29;
   position: relative;
   margin-left: 25px;
+  font-weight: 600;
+
 }
+
 .pageTitleContent ul li::before {
   content: "";
   position: absolute;
@@ -50,18 +72,23 @@
   top: 10px;
   height: 5px;
   width: 5px;
-  background: var(--white-color);
+  background: #101A29;
   border-radius: 50px;
 }
+
 .pageTitleContent ul li:first-child {
   margin-left: 0;
 }
+
 .pageTitleContent ul li:first-child::before {
   display: none;
 }
+
 .pageTitleContent ul li a {
   display: block;
-  color: var(--white-color);
+  color: #101A29;
+  font-weight: 600;
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -69,12 +96,16 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
+
   .pageTitleContent h2 {
     font-size: 35px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pageTitleContent h2 {
     font-size: 50px;
   }
-}/*# sourceMappingURL=PageBanner.module.css.map */
+}
+
+/*# sourceMappingURL=PageBanner.module.css.map */

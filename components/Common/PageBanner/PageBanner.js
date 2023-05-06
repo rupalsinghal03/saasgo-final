@@ -5,7 +5,8 @@ import styles from '@/components/Common/PageBanner/PageBanner.module.css'
 const PageBanner = ({pageTitle, homePageUrl, homePageText, activePageText, BGImage}) => {
     return (
         <>
-            <div className={`${styles.pageBannerArea} ${BGImage}`}>
+            {/* <div className={`${styles.pageBannerArea} ${BGImage}`}> */}
+            <div className={`${styles.pageBannerArea}`}>
                 <div className="container">
                     <div className={styles.pageTitleContent}>
                         <h2>{pageTitle}</h2>

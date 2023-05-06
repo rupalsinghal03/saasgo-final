@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '@/components/CareerDetails/CareerDetailsContent.module.css'
 
 function CareerModel(props) {
-const careerDetails = props.careerInfoContent
+  const careerDetails = props.careerInfoContent
+
+  // useEffect(() => {
+  //   document.body.style.overflow = 'hidden';
+  //   return () => document.body.style.overflow = 'unset';
+  // }, []);
+  
   return (
     <div className={styles.modalWrapper}>
       <div className="modal-dialog">
@@ -26,9 +32,9 @@ const careerDetails = props.careerInfoContent
 
                   <h4>Responsibilities</h4>
                   <ul>
-                  {careerDetails.responsibilities.map((val, i) => (
-                    <li>{val}</li>
-                  ))}
+                    {careerDetails.responsibilities.map((val, i) => (
+                      <li>{val}</li>
+                    ))}
                   </ul>
 
 
@@ -37,17 +43,17 @@ const careerDetails = props.careerInfoContent
                   <h4>Requirements</h4>
 
                   <ul>
-                  {careerDetails.requirements.map((val, i) => (
-                    <li>{val}</li>
-                  ))}
+                    {careerDetails.requirements.map((val, i) => (
+                      <li>{val}</li>
+                    ))}
                   </ul>
 
                   <h4>Qualifications</h4>
 
                   <ul>
-                  {careerDetails.qualification.map((val, i) => (
-                    <li>{val}</li>
-                  ))}
+                    {careerDetails.qualification.map((val, i) => (
+                      <li>{val}</li>
+                    ))}
                   </ul>
 
                   <div className="p-2 d-none d-md-block">
