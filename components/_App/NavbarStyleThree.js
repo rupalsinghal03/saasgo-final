@@ -377,6 +377,10 @@ const NavbarStyleThree = () => {
                               </Link>
                             </li>
                           </ul>
+                          <div>
+                            <p><b>Learn more about</b> <a href="/services">Services</a></p>
+                          </div>
+
                         </div>
                         <div className="col-lg-5 services-connect">
                           <div className="services-contact">
@@ -580,6 +584,9 @@ const NavbarStyleThree = () => {
                               </Link>
                             </li>
                           </ul>
+                          <div>
+                            <p><b>Know more about</b> <a href="/products.js">Our Products</a></p>
+                          </div>
                         </div>
                         <div className="col-lg-5 services-connect">
                           <div className="services-contact">
@@ -740,6 +747,9 @@ const NavbarStyleThree = () => {
                               </Link>
                             </li>
                           </ul>
+                          <div>
+                            <p><b>Learn more about</b> <a href="/industry.js">Industry we serve</a></p>
+                          </div>
                         </div>
                         <div className="col-lg-5 services-connect">
                           <div className="services-contact">
@@ -848,9 +858,8 @@ const NavbarStyleThree = () => {
 
       {/* Search Form */}
       <div
-        className={`search-overlay ${
-          isActiveSearchModal ? "" : "search-overlay-active"
-        }`}
+        className={`search-overlay ${isActiveSearchModal ? "" : "search-overlay-active"
+          }`}
       >
         <div className="d-table">
           <div className="d-table-cell">

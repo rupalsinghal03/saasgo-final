@@ -421,7 +421,7 @@ const NavbarStyleOne = () => {
                     </section>
                   </li>
                   <li className="nav-item">
-                    <Link href="/">
+                    <Link href="/products">
                       <a onClick={toggleNavbar} className="nav-link">
                         Products
                         {/* <i className="ri-arrow-down-s-line"></i> */}
@@ -593,6 +593,9 @@ const NavbarStyleOne = () => {
                               </Link>
                             </li>
                           </ul>
+                          <div>
+                            <p><b>Know more about</b> <a href="/products.js">Our Products</a></p>
+                          </div>
                         </div>
                         <div className="col-lg-5 services-connect">
                           <div className="services-contact">
@@ -621,7 +624,7 @@ const NavbarStyleOne = () => {
                     </section>
                   </li>
                   <li className="nav-item">
-                    <Link href="/">
+                    <Link href="/industry">
                       <a onClick={toggleNavbar} className="nav-link">
                         Industry
                         {/* <i className="ri-arrow-down-s-line"></i> */}
@@ -751,6 +754,9 @@ const NavbarStyleOne = () => {
                               </Link>
                             </li>
                           </ul>
+                          <div>
+                            <p><b>Know more about</b> <a href="/industry.js">Industry we serve</a></p>
+                          </div>  
                         </div>
                         <div className="col-lg-5 services-connect">
                           <div className="services-contact">
@@ -779,7 +785,7 @@ const NavbarStyleOne = () => {
                     </section>
                   </li>
                   <li className="nav-item">
-                    <Link href="#">
+                    <Link href="/portfolio">
                       <a onClick={toggleNavbar} className="nav-link">
                         Portfolio
                       </a>

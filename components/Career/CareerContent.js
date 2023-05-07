@@ -56,6 +56,22 @@ const CareerInfoContent = [
         qualification: ["Experience with AWS, Google Cloud, or other cloud platforms", "Knowledge of other front-end technologies such as AngularJS or Vue.js","Understanding of server-side rendering and its benefits","Familiarity with testing frameworks such as Jest or Enzyme","Knowledge of other programming languages such as Python or Ruby","Experience with database technologies such as SQL or NoSQL databases"]
     },
     {
+        title: "React Developer",
+
+        education: "Education:",
+        educationText: "BTech / M.C.A.",
+
+        experience: "Experience:",
+        experienceText: "At least 2 years",
+
+        viewDetailsText: "Details",
+
+        jobSummary: "We are seeking a talented React Developer with 2+ years of experience to join our team. As a React Developer, you will be responsible for developing and implementing user interface components using React.js workflows. You will work closely with our team of developers and collaborate with our product and design teams to deliver high-quality software solutions that meet our clients' needs.",
+        requirements: ["2+ years of experience in React.js development", "Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model","Experience with popular React.js workflows such as Redux or Flux","Experience with HTML, CSS, and CSS preprocessors such as SASS or LESS","Familiarity with RESTful APIs and modern front-end build pipelines and tools","Experience with version control systems such as Git","Familiarity with agile software development methodologies","Excellent communication and problem-solving skills","Bachelor's degree in Computer Science or a related field"],
+        responsibilities: ["Develop and implement user interface components using React.js workflows", "Collaborate with cross-functional teams to identify and prioritise features","Write clean, maintainable, and efficient code","Ensure the best possible performance, quality, and responsiveness of the applications","Develop and maintain code libraries and reusable components for future use","Identify and troubleshoot application issues","Stay up-to-date with industry developments and technologies"],
+        qualification: ["Experience with AWS, Google Cloud, or other cloud platforms", "Knowledge of other front-end technologies such as AngularJS or Vue.js","Understanding of server-side rendering and its benefits","Familiarity with testing frameworks such as Jest or Enzyme","Knowledge of other programming languages such as Python or Ruby","Experience with database technologies such as SQL or NoSQL databases"]
+    },
+    {
         title: "NodeJs Developer",
 
         education: "Education:",
@@ -106,7 +122,7 @@ const CareerContent = () => {
     }
     return (
         <>
-            <div className="career-area pt-100 pb-100">
+            <div className="career-area pt-50 pb-50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 col-md-12">

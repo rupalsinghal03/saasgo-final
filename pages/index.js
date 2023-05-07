@@ -39,7 +39,7 @@ const IndexPage = () => {
       </div> */}
 
       <WhyChooseUs />
-
+      
       <ServiceSlider />
 
       {/* <OurTeam /> */}
@@ -63,6 +63,9 @@ const IndexPage = () => {
       <OurBlog />
 
       <NewsletterForm />
+
+
+      {/* <Industry /> */}
 
       <Footer />
     </>
